@@ -11,7 +11,7 @@ function compareValue(num1, num2) {
     show.style.height = "25px"
   } else {
     show.textContent = `Your guess number ${num1} is match with computer number ${num2}`
-    show.style.height = "45px"
+    show.style.height = "55px"
     randomValue = random_num()
   }
   show.classList.add("display-data")
